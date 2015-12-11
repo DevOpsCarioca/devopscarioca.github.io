@@ -35,5 +35,20 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 10
 
+# Extras
+STATIC_PATHS = [
+    'images',
+    # 'extras/CNAME',
+    'extras/robots.txt',
+    'extras/README',
+]
+
+EXTRA_PATH_METADATA = {
+    # 'extras/CNAME': {'path': 'CNAME'},
+    'extras/robots.txt': {'path': 'robots.txt'},
+    'extras/README': {'path': 'robots.txt'}
+}
+
+
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
