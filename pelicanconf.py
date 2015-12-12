@@ -8,6 +8,8 @@ SITEURL = ''
 
 PATH = 'content'
 
+THEME="theme"
+
 TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = 'br'
