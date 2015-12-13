@@ -4,7 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = 'DevOpsCarioca'
 SITENAME = 'DevOpsCarioca'
-SITEURL = ''
+SITEURL = 'http://www.devopscarioca.com.br'
+
+GITHUB_URL = 'http://github.com/DevOpsCarioca'
+TWITTER_URL = 'http://twitter.com/DevOpsCarioca'
+FACEBOOK_URL = 'http://facebook.com/DevOpsCarioca'
 
 PATH = 'content'
 
