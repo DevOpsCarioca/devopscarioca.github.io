@@ -31,8 +31,9 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ('You can add links in your config file', '#'),
-    ('Another social link', '#'),
+    ('MeetUp', 'http://www.meetup.com/pt/DevOps-Carioca/'),
+    ('Facebook', 'https://www.facebook.com/DevOpsCarioca/'),
+    ('Twitter', 'https://twitter.com/devopscarioca'),
 )
 
 DEFAULT_PAGINATION = 10
