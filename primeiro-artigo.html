@@ -106,29 +106,29 @@
     <!-- Post Content -->
     <article>
         <p>Antes de começar a falar como foi o encontro, é importante explicar como surgiu o DevOps Carioca.</p>
-<p>A idéia surgiu em um hands-on sobre docker em um domingo no Shopping New York, realizado pelo Hugo Leonardo. Esse encontro foi tão bacana, que além de falarmos sobre Docker, falamos sobre ferramenta de testes, deploy e outras tecnologias de ponta. Mas o conhecimento foi compartilhado para poucas pessoas, e então sentimos a necessidade da criação de um grupo, onde seria possível, ao mesmo, compartilhar e aprender.</p>
+<p>A idéia surgiu em um hands-on sobre Docker em um domingo no Shopping New York, realizado pelo Hugo Leonardo. Esse encontro foi tão bacana, que além de falarmos sobre Docker, falamos sobre ferramenta de testes, deploy e outras tecnologias de ponta. Mas o conhecimento foi compartilhado para poucas pessoas, e então sentimos a necessidade da criação de um grupo, onde seria possível, ao mesmo, compartilhar e aprender.</p>
 <p>E para iniciar um grupo, nada melhor que um encontro, não é mesmo?</p>
 <p>Assim marcamos o encontro na sede da <a href="http://infolink.com.br">InfoLink</a> para o dia 2 de Dezembro.</p>
 <h2>Como foi o encontro?</h2>
 <p>Resumindo em uma palavra: <b>Sensacional!</b></p>
-<p>Enquanto as pessoas chegavam, discutimos sobre diversos assuntos. O Hugo apresentou o <a href="http://exercism.io/">Exercism</a>, um site onde você pratica exercicios e outras pessoas fazem comentários sobre a forma como você resolveu o problema. Ninguém lembra como, mas emendamos numa conversa interessante sobre Systemd, System V, runit e outras alternativas e no final disso debatemos sobre as funcionalidades do Tmux.</p>
+<p>Enquanto as pessoas chegavam, discutimos sobre diversos assuntos. O Hugo apresentou o <a href="http://exercism.io/">Exercism</a>, um site onde você pratica exercícios e outras pessoas fazem comentários sobre a forma como você resolveu o problema. Ninguém lembra como, mas emendamos numa conversa interessante sobre Systemd, System V, runit e outras alternativas e no final disso debatemos sobre as funcionalidades do Tmux.</p>
 <p>O Hugo foi o mestre de cerimônias, ele falou sobre o funcionamento do <a href="https://testinfra.readthedocs.org/en/latest/">Testinfra</a> e de como é possível integrar a ferramenta com o Docker e em pouco tempo começamos um coding dojo usando essas duas ferramentas.</p>
-<p>Definimos que subiriamos o Flask no Docker, testando se o Python está instalado até a execução do Flask. Os testes definidos podem ser visto [aqui] (https://github.com/DevOpsCarioca/dojo-testinfra/blob/master/container_flask.txt)</p>
-<p>Para quem nunca ouviu falar do TestInfra: Ele é uma ferramenta que faz teste na infra. Por exemplo, ele verifica se uma aplica esta no ar, se um programa está instalado, se um arquivo existe, etc. E os testes são bem simples:</p>
+<p>Definimos que subiríamos o Flask no Docker, testando se o Python está instalado até a execução do Flask. Os testes definidos podem ser visto [aqui] (https://github.com/DevOpsCarioca/dojo-testinfra/blob/master/container_flask.txt)</p>
+<p>Para quem nunca ouviu falar do TestInfra: Ele é uma ferramenta que faz teste na infra. Por exemplo, ele verifica se uma aplicação está no ar, se um programa está instalado, se um arquivo existe, etc. E os testes são bem simples:</p>
 <div class="highlight"><pre>def test_python_version(Package):
     python = Package(&quot;python2.7&quot;)
     assert python.version.startswith(&quot;2.7&quot;)
 </pre></div>
 
 
-<p>Essa é uma função que testa se o pacote python está com a versão 2.7 instalado. Ele é recomendável para testes após deploy e além da comunicação com o Docker, ele consegue se comunicar por enquanto com a sua maquina local, com o Paramiko, ssh, salt e Ansible.</p>
-<p>O excelente papo, compartilhamento de conhecimento e pessoas legais, foram regados com bolos, biscoitos, sanduiches, sucos e é claro, as deliciosas pipocas de microondas feita pela <a href="https://github.com/darlenedms">Darlene</a>.</p>
+<p>Essa é uma função que testa se o pacote Python está com a versão 2.7 instalada. Ele é recomendável para testes após deploy e além da comunicação com o Docker, ele consegue se comunicar por enquanto com a sua máquina local, com o Paramiko, ssh, salt e Ansible.</p>
+<p>O excelente papo, compartilhamento de conhecimento e pessoas legais, foram regados com bolos, biscoitos, sanduíches, sucos e é claro, as deliciosas pipocas de microondas feitas pela <a href="https://github.com/darlenedms">Darlene</a>.</p>
 <p><img alt="Foto do primeiro encontro" src="/images/primeiro_encontro_02_12.jpg" /></p>
 <p>Durante o encontro o <a href="https://groups.google.com/forum/?hl=en#!forum/devopscarioca">Hugo</a> e o <a href="https://github.com/chevectra87">Souza</a> <a href="https://github.com/philpep/testinfra/issues/24">assumiram uma issue</a>
 no Testinfra, para implantar um módulo para os processos.</p>
-<p>Com tanta energia positiva, é claro que no final do encontro, conseguimos criar todos os testes que foram definido ;)</p>
+<p>Com tanta energia positiva, é claro que no final do encontro, conseguimos criar todos os testes que foram definidos ;)</p>
 <p>Você provavelmente está pensando: Poxa, perdi isso tudo? =(</p>
-<p>É, você perdeu isso, mas os próximos só dependem de você, esses encontros aconterão a cada 15 dias, nas quartas-feiras às 19h. Para se increver nos próximos, basta assinar a nossa <a href="https://groups.google.com/forum/?hl=en#!forum/devopscarioca">lista de discussão</a></p>
+<p>É, você perdeu isso, mas os próximos só dependem de você, esses encontros acontecerão a cada 15 dias, nas quartas-feiras às 19h. Para se increver nos próximos, basta assinar a nossa <a href="https://groups.google.com/forum/?hl=en#!forum/devopscarioca">lista de discussão</a></p>
 <p>https://www.instagram.com/p/-1qYdqxeKq/?taken-by=estranh0</p>
     </article>
 
