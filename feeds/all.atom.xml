@@ -17,7 +17,7 @@
 
 &lt;p&gt;Essa é uma função que testa se o pacote python está com a versão 2.7 instalado. Ele é recomendável para testes após deploy e além da comunicação com o Docker, ele consegue se comunicar por enquanto com a sua maquina local, com o Paramiko, ssh, salt e Ansible.&lt;/p&gt;
 &lt;p&gt;O excelente papo, compartilhamento de conhecimento e pessoas legais, foram regados com bolos, biscoitos, sanduiches, sucos e é claro, as deliciosas pipocas de microondas feita pela &lt;a href="https://github.com/darlenedms"&gt;Darlene&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="images/primeiro_encontro_02_12.jpg"&gt;Foto do primeiro encontro&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Foto do primeiro encontro" src="/images/primeiro_encontro_02_12.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;Durante o encontro o &lt;a href="https://groups.google.com/forum/?hl=en#!forum/devopscarioca"&gt;Hugo&lt;/a&gt; e o &lt;a href="https://github.com/chevectra87"&gt;Souza&lt;/a&gt; &lt;a href="https://github.com/philpep/testinfra/issues/24"&gt;assumiram uma issue&lt;/a&gt;
 no Testinfra, para implantar um módulo para os processos.&lt;/p&gt;
 &lt;p&gt;Com tanta energia positiva, é claro que no final do encontro, conseguimos criar todos os testes que foram definido ;)&lt;/p&gt;
