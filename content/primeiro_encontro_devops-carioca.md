@@ -35,7 +35,7 @@ Essa é uma função que testa se o pacote python está com a versão 2.7 instal
 
 O excelente papo, compartilhamento de conhecimento e pessoas legais, foram regados com bolos, biscoitos, sanduiches, sucos e é claro, as deliciosas pipocas de microondas feita pela [Darlene](https://github.com/darlenedms).
 
-[Foto do primeiro encontro](images/primeiro_encontro_02_12.jpg)
+![Foto do primeiro encontro](/images/primeiro_encontro_02_12.jpg)
 
 
 Durante o encontro o [Hugo](https://groups.google.com/forum/?hl=en#!forum/devopscarioca) e o [Souza](https://github.com/chevectra87) [assumiram uma issue](https://github.com/philpep/testinfra/issues/24)
