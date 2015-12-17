@@ -18,9 +18,9 @@ Assim marcamos o encontro na sede da [InfoLink](http://infolink.com.br) para o d
 
 Resumindo em uma palavra: <b>Sensacional!</b>
 
-Enquanto as pessoas chegavam, discutimos sobre diversos assuntos. O Hugo apresentou o [Exercism](http://exercism.io/), um site onde você pratica exercícios e outras pessoas fazem comentários sobre a forma como você resolveu o problema. Ninguém lembra como, mas emendamos numa conversa interessante sobre Systemd, System V, runit e outras alternativas e no final disso debatemos sobre as funcionalidades do Tmux.
+Enquanto as pessoas chegavam, discutimos sobre diversos assuntos. O Hugo apresentou o [Exercism](http://exercism.io/), um site onde você pratica exercícios e outras pessoas fazem comentários sobre a forma como você resolveu o problema. Ninguém lembra como, mas emendamos numa conversa interessante sobre [Systemd](http://freedesktop.org/wiki/Software/systemd/), [System V](https://en.wikipedia.org/wiki/UNIX_System_V), [runit](http://smarden.org/runit/) e outras alternativas e no final disso debatemos sobre as funcionalidades do [Tmux](https://tmux.github.io/).
 
-O Hugo foi o mestre de cerimônias, ele falou sobre o funcionamento do [Testinfra](https://testinfra.readthedocs.org/en/latest/) e de como é possível integrar a ferramenta com o Docker e em pouco tempo começamos um coding dojo usando essas duas ferramentas.
+O [Hugo](https://github.com/hugoleodev) foi o mestre de cerimônias, ele falou sobre o funcionamento do [Testinfra](https://testinfra.readthedocs.org/en/latest/) e de como é possível integrar a ferramenta com o Docker e em pouco tempo começamos um coding dojo usando essas duas ferramentas.
 
 Definimos que subiríamos o Flask no Docker, testando se o Python está instalado até a execução do Flask. Os testes definidos podem ser visto [aqui] (https://github.com/DevOpsCarioca/dojo-testinfra/blob/master/container_flask.txt)
 
@@ -37,8 +37,7 @@ O excelente papo, compartilhamento de conhecimento e pessoas legais, foram regad
 
 ![Foto do primeiro encontro](/images/primeiro_encontro_02_12.jpg)
 
-
-Durante o encontro o [Hugo](https://groups.google.com/forum/?hl=en#!forum/devopscarioca) e o [Souza](https://github.com/chevectra87) [assumiram uma issue](https://github.com/philpep/testinfra/issues/24)
+Durante o encontro o [Hugo](https://github.com/hugoleodev) e o [Souza](https://github.com/chevectra87) [assumiram uma issue](https://github.com/philpep/testinfra/issues/24)
 no Testinfra, para implantar um módulo para os processos.
 
 Com tanta energia positiva, é claro que no final do encontro, conseguimos criar todos os testes que foram definidos ;)
@@ -46,7 +45,3 @@ Com tanta energia positiva, é claro que no final do encontro, conseguimos criar
 Você provavelmente está pensando: Poxa, perdi isso tudo? =(
 
 É, você perdeu isso, mas os próximos só dependem de você, esses encontros acontecerão a cada 15 dias, nas quartas-feiras às 19h. Para se increver nos próximos, basta assinar a nossa [lista de discussão](https://groups.google.com/forum/?hl=en#!forum/devopscarioca)
-
-https://www.instagram.com/p/-1qYdqxeKq/?taken-by=estranh0
-
-
