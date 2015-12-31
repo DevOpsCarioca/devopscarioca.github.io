@@ -1,5 +1,5 @@
 /*!
- * Clean Blog v1.0.0 (http://startbootstrap.com)
+ * Based on Clean Blog v1.0.0 (http://startbootstrap.com)
  * Copyright 2014 Start Bootstrap
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
@@ -397,4 +397,14 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #0085a1;
+}
+.next-meetup {
+  border: 4px double #bbbbbb;
+  padding: 50px;
+}
+.next-meetup p {
+    margin: 0 auto;
+}
+.next-meetup span {
+    font-weight: bold;
 }
