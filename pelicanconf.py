@@ -25,6 +25,14 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Next meetup info
+MEETUP_DATE_LABEL = "Próximo encontro: "
+MEETUP_DATE = "06/01/2016"
+MEETUP_PLACE_LABEL = "Local: "
+MEETUP_PLACE = "Infolink - Shopping Downtown - bloco 14 - sala 101"
+MEETUP_ADDRESS_LABEL = "Endereço: "
+MEETUP_ADDRESS = "Av. das Américas, 500 - Barra da Tijuca - RJ"
+
 # Blogroll
 LINKS = (
     ('Pelican', 'http://getpelican.com/'),
