@@ -27,11 +27,11 @@ AUTHOR_FEED_RSS = None
 
 # Next meetup info
 MEETUP_DATE_LABEL = "Próximo encontro: "
-MEETUP_DATE = "13/01/2016"
+MEETUP_DATE = "a definir"
 MEETUP_PLACE_LABEL = "Local: "
-MEETUP_PLACE = "Infolink - Shopping Downtown - bloco 14 - sala 101"
+MEETUP_PLACE = "a definir"
 MEETUP_ADDRESS_LABEL = "Endereço: "
-MEETUP_ADDRESS = "Av. das Américas, 500 - Barra da Tijuca - RJ"
+MEETUP_ADDRESS = "a definir"
 
 # Blogroll
 LINKS = (
